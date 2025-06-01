@@ -26,5 +26,5 @@ project2 = Project(name="Project B", user_id=user2.id)
 db.add_all([project1, project2])
 db.commit()
 
-print("✅ データベース初期化完了")
+print("データベース初期化完了")
 db.close()
